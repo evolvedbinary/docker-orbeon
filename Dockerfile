@@ -1,5 +1,10 @@
 FROM tomcat:9.0-jdk11
-LABEL maintainer="Dave Conroy (dave at tiredofit dot ca)"
+LABEL maintainer="Evolved Binary Ltd"
+LABEL "org.opencontainers.image.authors"="https://www.evolvedbinary.com"
+LABEL "org.opencontainers.image.title"="Orbeon"
+LABEL "org.opencontainers.image.documentation"="https://doc.orbeon.com/"
+LABEL "org.opencontainers.image.description"="Orbeon Forms"
+LABEL "org.opencontainers.image.source"="https://www.github.com/evolvedbinary/docker-orbeon"
 
 ARG ORBEON_TAG=tag-release-2019.2-ce
 ARG ORBEON_FILE_NAME_BASE=orbeon-2019.2.0.201912301747-CE
